@@ -21,3 +21,27 @@
         <scope>test</scope>
     </dependency>
 ```
+
+---
+
+## [Demo - example](https://github.com/dashaun/testing-native-images)
+
+---
+
+## Add Failsafe Plugin for integration tests
+
+```text
+    <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-failsafe-plugin</artifactId>
+        <version>3.5.2</version>
+        <executions>
+            <execution>
+                <goals>
+                    <goal>integration-test</goal>
+                    <goal>verify</goal>
+                </goals>
+            </execution>
+        </executions>
+    </plugin>
+```
